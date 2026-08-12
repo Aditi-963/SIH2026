@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☁️ MeghRakshak
+#  MeghRakshak
 
 ### Explainable AI for High-Impact Rainfall Prediction & Disaster Decision Support
 
@@ -26,7 +26,7 @@
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 - [About MeghRakshak](#-about-meghrakshak)
 - [Problem Statement](#-problem-statement)
@@ -54,7 +54,7 @@
 
 ---
 
-## 🌧️ About MeghRakshak
+##  About MeghRakshak
 
 **MeghRakshak** is an explainable, satellite-driven early-warning and decision-support system designed to predict **high-impact rainfall events** and help disaster-management authorities understand *why* a particular event is predicted.
 
@@ -68,7 +68,7 @@ MeghRakshak addresses this gap by combining **Indian satellite observations, rai
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Extreme rainfall events can rapidly transform into floods, landslides, infrastructure failures, transport disruptions, and loss of life.
 
@@ -104,7 +104,7 @@ MeghRakshak aims to bridge this **prediction-to-decision gap**.
 
 ---
 
-## 💡 Our Solution
+##  Our Solution
 
 MeghRakshak processes satellite and meteorological information to identify conditions associated with high-impact rainfall.
 
@@ -143,7 +143,7 @@ Satellite & Meteorological Data
 
 ---
 
-## 🚨 What Makes MeghRakshak Different?
+##  What Makes MeghRakshak Different?
 
 MeghRakshak is not designed to be just another rainfall prediction model.
 
@@ -155,7 +155,7 @@ Our approach focuses on the complete chain:
 
 MeghRakshak is designed around Indian Earth-observation data, particularly **INSAT-3D/3DR**, rather than treating India's monsoon environment as just another region in a global model. Large global AI weather models are trained on global reanalysis data and have shown systematic underestimation of extreme precipitation over the South Asian monsoon region — a gap an India-native model is built to close.
 
-### 2. 🔍 Explainable predictions
+### 2.  Explainable predictions
 
 Using **SHAP-based explainability**, the system identifies the features that contributed most strongly to a prediction.
 
@@ -167,11 +167,11 @@ the system can communicate:
 
 > "Extreme rainfall risk is elevated primarily due to cloud-top cooling, moisture convergence, and atmospheric pressure conditions."
 
-### 3. 📊 Confidence-aware predictions
+### 3.  Confidence-aware predictions
 
 Every prediction should communicate not only **what the model predicts**, but also **how confident the model is**. This helps avoid overconfident automated warnings.
 
-### 4. 🧠 Decision-support layer
+### 4.  Decision-support layer
 
 MeghRakshak goes beyond prediction. It translates model outputs into operational risk categories and potential preparedness actions.
 
@@ -184,7 +184,7 @@ CRITICAL RISK          → Activate emergency preparedness and evacuation-readin
 
 The final decisions remain with authorized disaster-management personnel.
 
-### 5. 🗺️ Geospatial visualization
+### 5.  Geospatial visualization
 
 The dashboard provides a map-centric view of rainfall risk, affected regions, prediction confidence, contributing factors, historical observations, alerts, and recommended preparedness level.
 
@@ -200,7 +200,7 @@ The dashboard provides a map-centric view of rainfall risk, affected regions, pr
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
                      ┌───────────────────────┐
@@ -257,7 +257,7 @@ The dashboard provides a map-centric view of rainfall risk, affected regions, pr
 
 ---
 
-## 🧠 Core Technology
+##  Core Technology
 
 ### Data Layer
 
@@ -298,7 +298,7 @@ Cloud persistence           █████
 
 ---
 
-## 📸 Screenshots & Demo
+##  Screenshots & Demo
 
 > _Add dashboard screenshots, architecture diagrams, and a short demo GIF/video link here once the prototype is ready._
 
@@ -310,7 +310,7 @@ Cloud persistence           █████
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -406,22 +406,22 @@ curl -X POST http://localhost:8000/predict \
 
 ---
 
-## 🗺️ MeghRakshak Dashboard
+##  MeghRakshak Dashboard
 
 The web application provides an operational map-based interface.
 
 | Component | Description |
 |---|---|
-| 🌧️ **Rainfall Risk Map** | Region-wise rainfall risk, color-coded by severity |
-| 📍 **Location Intelligence** | Select a district/region to inspect current predictions |
-| 📈 **Prediction Panel** | Predicted risk, probability, severity, horizon, confidence |
-| 🔍 **Explainability Panel** | Top contributing features, SHAP values, human-readable explanation |
-| 🚨 **Alert Center** | Active high-risk regions |
-| 🧭 **Decision Support** | Preparedness recommendations based on severity, confidence, and historical context |
+|  **Rainfall Risk Map** | Region-wise rainfall risk, color-coded by severity |
+|  **Location Intelligence** | Select a district/region to inspect current predictions |
+|  **Prediction Panel** | Predicted risk, probability, severity, horizon, confidence |
+|  **Explainability Panel** | Top contributing features, SHAP values, human-readable explanation |
+|  **Alert Center** | Active high-risk regions |
+|  **Decision Support** | Preparedness recommendations based on severity, confidence, and historical context |
 
 ---
 
-## ⚙️ Technology Stack
+##  Technology Stack
 
 <table>
 <tr>
@@ -467,7 +467,7 @@ The web application provides an operational map-based interface.
 
 ---
 
-## 📊 Expected Output
+##  Expected Output
 
 For each monitored region, MeghRakshak produces a structured prediction:
 
@@ -489,20 +489,20 @@ For each monitored region, MeghRakshak produces a structured prediction:
 
 ---
 
-## 🎯 Target Users
+##  Target Users
 
 | User | Benefit |
 |---|---|
-| 🏛️ **State Disaster Management Authorities** | Support preparedness and resource allocation decisions |
-| 🚨 **NDRF / SDRF** | Support emergency resource pre-positioning and response planning |
-| 🌦️ **IMD & Meteorological Experts** | Provide an interpretable AI-based second opinion |
-| 🏘️ **Local Administration** | Support district-level risk monitoring |
-| 🌾 **Agricultural Communities** | Provide earlier awareness of potentially damaging rainfall |
-| ✈️ **Infrastructure & Transport Operators** | Support preparedness and operational decisions during extreme rainfall |
+|  **State Disaster Management Authorities** | Support preparedness and resource allocation decisions |
+|  **NDRF / SDRF** | Support emergency resource pre-positioning and response planning |
+|  **IMD & Meteorological Experts** | Provide an interpretable AI-based second opinion |
+|  **Local Administration** | Support district-level risk monitoring |
+|  **Agricultural Communities** | Provide earlier awareness of potentially damaging rainfall |
+|  **Infrastructure & Transport Operators** | Support preparedness and operational decisions during extreme rainfall |
 
 ---
 
-## 🌍 Potential Impact
+##  Potential Impact
 
 MeghRakshak is designed around a simple principle:
 
@@ -514,7 +514,7 @@ The system will ultimately be evaluated using measurable forecasting and operati
 
 ---
 
-## 📏 Evaluation Metrics
+##  Evaluation Metrics
 
 **Prediction metrics:** Precision · Recall · F1 Score · ROC-AUC · PR-AUC · False Alarm Rate · Critical Success Index · Brier Score
 
@@ -522,7 +522,7 @@ The system will ultimately be evaluated using measurable forecasting and operati
 
 ---
 
-## 🔬 Research Foundation
+##  Research Foundation
 
 MeghRakshak builds upon research and publicly available resources in Explainable AI for Earth Observation, satellite-based rainfall prediction, short-term precipitation forecasting, AI weather forecasting, South Asian monsoon modelling, and disaster early-warning systems.
 
@@ -539,7 +539,7 @@ MeghRakshak builds upon research and publicly available resources in Explainable
 
 ---
 
-## 🛡️ Responsible AI & Safety
+##  Responsible AI & Safety
 
 MeghRakshak is intended as a **decision-support system**, not an autonomous authority. The system should never independently determine that a population must evacuate.
 
@@ -553,7 +553,7 @@ Final decisions remain with authorized disaster-management officials. This appro
 
 ---
 
-## 🚀 Development Roadmap
+##  Development Roadmap
 
 <details>
 <summary><b>Phase 1 — Research & Data</b></summary>
@@ -626,7 +626,7 @@ Final decisions remain with authorized disaster-management officials. This appro
 
 ---
 
-## 🧪 Demonstration Strategy
+##  Demonstration Strategy
 
 For the prototype, MeghRakshak demonstrates a historical high-impact rainfall scenario:
 
@@ -650,7 +650,7 @@ This allows judges to see the complete **data-to-decision pipeline** rather than
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 MeghRakshak/
@@ -695,7 +695,7 @@ MeghRakshak/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 MeghRakshak is currently developed by Team MeghRakshak for Smart India Hackathon 2026.
 
@@ -712,19 +712,19 @@ Future collaboration and research contributions may be opened up as the project 
 
 ---
 
-## 🔐 Data & Privacy
+##  Data & Privacy
 
 The project prioritizes publicly available, research-appropriate datasets and follows the usage requirements of respective data providers. No personally identifiable information is required for the core rainfall prediction pipeline.
 
 ---
 
-## 🌱 Future Scope
+##  Future Scope
 
 Flood forecasting · Landslide-risk prediction · Cyclone impact assessment · Flash-flood risk estimation · Multi-satellite data fusion · Radar + satellite fusion · Soil moisture integration · River-level forecasting · Urban flood modelling · Hyperlocal alert generation · Multilingual public alerts · CAP-compatible alert generation · Integration with disaster-management APIs · Advanced spatiotemporal deep learning
 
 ---
 
-## 👩‍💻 Team MeghRakshak
+##  Team MeghRakshak
 
 | Member | Role | GitHub |
 |---|---|---|
@@ -737,18 +737,18 @@ Flood forecasting · Landslide-risk prediction · Cyclone impact assessment · F
 
 > Roles are intentionally collaborative. All team members contribute to research, development, testing, and the final MeghRakshak prototype.
 
-### 👩‍🏫 Faculty Guide
+###  Faculty Guide
 
 **Dr. Ankita Gandhi** — Industry Embedded Program (CSE-IEP), Parul Institute of Engineering & Technology, Parul University
 
-### 🏫 Institution
+###  Institution
 
 **Parul Institute of Engineering & Technology (PIET)**, Limda, Waghodia, Vadodara, Gujarat, India
 **Program:** B.Tech Computer Science Engineering — Industry Embedded Program (CSE-IEP)
 
 ---
 
-## 🏆 Smart India Hackathon 2026
+##  Smart India Hackathon 2026
 
 | | |
 |---|---|
@@ -760,7 +760,7 @@ Flood forecasting · Landslide-risk prediction · Cyclone impact assessment · F
 
 ---
 
-## 📜 License
+##  License
 
 This project is intended for academic, research, and innovation purposes as part of Smart India Hackathon 2026, licensed under the [MIT License](LICENSE). The final licensing model will be determined based on project requirements, data licensing conditions, and institutional guidelines.
 
@@ -768,7 +768,7 @@ This project is intended for academic, research, and innovation purposes as part
 
 <div align="center">
 
-## ☁️ MeghRakshak
+##  MeghRakshak
 
 > **See the storm. Understand the risk. Act before impact.**
 
