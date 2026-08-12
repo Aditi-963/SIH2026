@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☁️ VarshaNetra
+# ☁️ MeghRakshak
 
 ### Explainable AI for High-Impact Rainfall Prediction & Disaster Decision Support
 
