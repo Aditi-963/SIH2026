@@ -106,7 +106,7 @@ MeghRakshak aims to bridge this **prediction-to-decision gap**.
 
 ##  Our Solution
 
-MeghRakshak processes satellite and meteorological information to identify conditions associated with the high-impact rainfall.
+MeghRakshak processes satellite and meteorological information to identify conditions associated with high-impact rainfall.
 
 The system then:
 
