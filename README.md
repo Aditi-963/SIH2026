@@ -58,7 +58,7 @@
 
 **MeghRakshak** is an explainable, satellite-driven early-warning and decision-support system designed to predict **high-impact rainfall events** and help disaster-management authorities understand *why* a particular event is predicted.
 
-Modern AI weather models can generate highly accurate predictions, but their outputs can often be difficult to interpret. During high-stakes situations such as floods, cloudbursts, and extreme rainfall, decision-makers need more than a probability score.
+Modern AI weather models can generate highly accurate predictions, but their outputs can often be difficult to interpret. During high-stakes situations such as floods, cloudbursts, and extreme rainfall, decision-makers need more than a probability scores.
 
 They need to know:
 
